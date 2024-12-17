@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className="w-[1440px] h-[1600px] flex bg-[#FFFFFF] border-r-4 border-[#F3F5F7] bg-[#F6F7F9] ">
       <div className="w-[360px] h-[1600px] flex flex-col gap-[110px]">
-        <div className="w-[189px] h-[352px] flex flex-col gap-[28px] pt-[32px] pl-[32px]">
+        <div className="w-[200px] h-[352px] flex flex-col gap-[28px] pt-[32px] pl-[32px]">
 
           <div className="text-[12px] text-[#90A3BF]"><p>T Y P E</p></div>
 
@@ -85,7 +85,7 @@ const page = () => {
         </div>
         </div>
       </div>
-      <div className="w-[1100px] h-[1600px] flex pb-[50px] flex-col bg-[#F6F7F9] items-center justify-between">
+      <div className="w-[1100px] h-[1600px] flex pt-[30px] pb-[50px] flex-col bg-[#F6F7F9] items-center justify-between">
         <div className="w-[1022px] h-[132px]">
         <div className="w-[1312px] h-[132px] bg-[#FFFFFF] flex items-center">
         <div className="w-[482px] h-[20px] flex flex-col gap-[10px]">
@@ -124,7 +124,7 @@ const page = () => {
 
         <div className="w-[582px] h-[132px] flex justify-between items-center">
         <div className="w-[482px] h-[20px] flex flex-col gap-[10px] pl-[30px]">
-          <div className="w-[92px] h-[20px] flex justify-between">
+          <div className="w-[110px] h-[20px] flex justify-between">
             <i className="bi bi-bullseye text-[#3563E94D]"></i>
             <h1 className="text-['16px] font-bold">Drop - Off</h1>
           </div>

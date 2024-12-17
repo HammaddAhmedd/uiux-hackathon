@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const header = () => {
   return (
-    <div className='h-full'>
-    <div className='container max-w-[1440px] max-auto py-[35px] flex items-center border border-[#C3D4E966] border-[1px] pl-[50px] gap-[350px]'>
+    <div className='w-[1440px] h-[180px] flex flex-col border border-[#C3D4E966] border-[1px]'>
+    <div className='w-[1440px] h-[100px] py-[35px] flex items-center pl-[50px] gap-[350px]'>
       <div className='w-5/8 h-[44px] flex gap-[150px]'>
         <h1 className='w-1/6 text-[32px] text-[#3563E9] font-bold'>MORENT</h1>
       
@@ -25,6 +25,17 @@ const header = () => {
           <div className=''><Image src='header.svg' alt='Image' width={44} height={44} /></div></div>
         </div>
       </div>
+
+      <div className='w-[1440px] h-[60px] flex bg-[#FFFFFF] items-center justify-center'>
+      <div className='w-[800px] h-[50px] text-[#90A3BF] font-bold bg-[#F6F7F9] px-[20px] flex justify-center 
+      items-center justify-between'>
+        <a className="hover:text-black" href='/'>Home</a>
+        <a className="hover:text-black" href='/category'>Category</a>
+        <a className="hover:text-black" href='/dashboard'>Dashboard</a>
+        <a className="hover:text-black" href='/contack'>Contack</a>
+      </div>
+    </div>
+
     </div>
   )
 }

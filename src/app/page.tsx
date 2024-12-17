@@ -85,7 +85,7 @@ export default function Home() {
 
         <div className="w-[582px] h-[132px] flex justify-between items-center">
         <div className="w-[582px] h-[20px] flex flex-col gap-[10px] pl-[30px]">
-          <div className="w-[92px] h-[20px] flex justify-between">
+          <div className="w-[110px] h-[20px] flex justify-between">
             <i className="bi bi-bullseye text-[#3563E94D]"></i>
             <h1 className="text-['16px] font-bold">Drop - Off</h1>
           </div>
