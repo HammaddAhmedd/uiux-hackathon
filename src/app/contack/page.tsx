@@ -105,7 +105,7 @@ const page = () => {
             </div>
           </div>
 
-          <div className='w-[92px] h-[20px] flex justify-between'>
+          <div className='w-[110px] h-[20px] flex justify-between'>
             <i className="bi text-[#3563E9] bi-bullseye"></i>
             <h1 className='font-bold text-[16px]'>Drop - Off</h1>
           </div>
