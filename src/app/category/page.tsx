@@ -1,89 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
+import Sidebar from '../components/sidebar'
 
 const page = () => {
   return (
     <div className="w-[1440px] h-[1600px] flex bg-[#FFFFFF] border-r-4 border-[#F3F5F7] bg-[#F6F7F9] ">
       <div className="w-[360px] h-[1600px] flex flex-col gap-[110px]">
-        <div className="w-[200px] h-[352px] flex flex-col gap-[28px] pt-[32px] pl-[32px]">
-
-          <div className="text-[12px] text-[#90A3BF]"><p>T Y P E</p></div>
-
-          <form>
-            <label className="flex items-center text-[20px] gap-2">
-              <input type="checkbox"/>
-            Sport  (10)</label>
-          </form>
-
-          <form>
-            <label className="flex items-center text-[20px] gap-2">
-              <input type="checkbox"/>
-            SUV  (12)</label>
-          </form>
-
-          <form>
-            <label className="flex items-center text-[20px] gap-2">
-              <input type="checkbox"/>
-            MPV  (16)</label>
-          </form>
-
-          <form>
-            <label className="flex items-center text-[20px] gap-2">
-              <input type="checkbox"/>
-            Sedan  (20)</label>
-          </form>
-
-          <form>
-            <label className="flex items-center text-[20px] gap-2">
-              <input type="checkbox"/>
-            Coupe  (14)</label>
-          </form>
-
-          <form>
-            <label className="flex items-center text-[20px] gap-2">
-              <input type="checkbox"/>
-            Hatchback  (14)</label>
-          </form>
-
-        </div>
-        <div className="w-[189px] h-[240px] flex flex-col gap-[28px] pl-[32px]">
-
-          <div className="text-[12px] text-[#90A3BF]"><p>C A P A C I T Y</p></div>
-
-          <form>
-              <label className="flex items-center text-[20px] gap-2">
-                <input type="checkbox"/>
-              2 Person  (10)</label>
-            </form>
-
-            <form>
-              <label className="flex items-center text-[20px] gap-2">
-                <input type="checkbox"/>
-              4 Person  (14)</label>
-            </form>
-
-            <form>
-            <label className="flex items-center text-[20px] gap-2">
-              <input type="checkbox"/>
-            6 Person  (12)</label>
-          </form>
-
-          <form>
-              <label className="flex items-center text-[20px] gap-2">
-                <input type="checkbox"/>
-              8 or More  (16)</label>
-          </form>
-        </div>
-        <div className="w-[296px] h-[104px] flex flex-col gap-[28px] pl-[32px]">
-
-        <div className="text-[12px] text-[#90A3BF]"><p>C A P A C I T Y</p></div>
-
-        <div className="w-[296px] h-[56px]">
-          <div>
-            <h1 className="text-[20px] text-[#596780]">Max. $100.00</h1>
-          </div>
-        </div>
-        </div>
+        <Sidebar />
       </div>
       <div className="w-[1100px] h-[1600px] flex pt-[30px] pb-[50px] flex-col bg-[#F6F7F9] items-center justify-between">
         <div className="w-[1022px] h-[132px]">
