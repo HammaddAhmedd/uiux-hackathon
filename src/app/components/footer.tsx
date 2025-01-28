@@ -29,10 +29,10 @@ const footer = () => {
           </div>
           <div className='w-[152px] h-[244px] flex justify-between pt-[2px] pb-[2px] flex-col'>
           <h1 className='text-[20px] font-bold'>Socials</h1>
-            <a className='text-[#13131399] text-[16px]' href='/'>Discord</a>
-            <a className='text-[#13131399] text-[16px]' href='/'>Instagram</a>
-            <a className='text-[#13131399] text-[16px]' href='/'>Twitter</a>
-            <a className='text-[#13131399] text-[16px]' href='/'>Facebook</a>
+            <a className='text-[#13131399] text-[16px]' href='https://discord.com'>Discord</a>
+            <a className='text-[#13131399] text-[16px]' href='https://www.instagram.com'>Instagram</a>
+            <a className='text-[#13131399] text-[16px]' href='https://twitter.com'>Twitter</a>
+            <a className='text-[#13131399] text-[16px]' href='https://www.facebook.com'>Facebook</a>
           </div>
         </div>
       </div>
